@@ -4,6 +4,14 @@ Git takes snapshots of your files. Every time you
 
 
 
+The Two Main type:
+
+Local Repository: Reside directly on your computer inside your project Directory. You write code, create save points ("commits") and manage version here locally without needing an internet connection. 
+
+Remote Repository: Hosted online on a platform like GitHub or Bitbucket. It acts as the master backup where you upload your work ("push") and download updates from teammates ("pull").
+
+
+
 git init-> creates a hidden folder (.git) iniside your current folder. This turns your normal folder into a Git repository so Git can start tracking it.
 
 ######################
