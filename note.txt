@@ -1,0 +1,23 @@
+Git takes snapshots of your files. Every time you
+"save" a new version in Git (called making a commit), it records exactly what changed, who changed it, and when. You rewind time to look at any previous snapshot, compare two snapshots, or completely restore an old version.
+
+
+
+
+git init-> creates a hidden folder (.git) iniside your current folder. This turns your normal folder into a Git repository so Git can start tracking it.
+
+######################
+When to use: when you start a brand new project from scratch.
+
+
+command 2: 'git status
+what it does:"What it does: Asks Git what is going on right now? It shows you which files are changed, which are in staging area, and which are untracked (new files Git has never seen)
+When to use: COnstantly . Before you type any command , type 'git status'. It tells you exactly what your next step should be
+
+Command 3: 'git add ‹filename›
+What it does: Moves a specific file from your Working Directory into the Staging Area. It tells Git '"I want to include the changes from THIS file in my next save."
+%Pro-tip: To add every changed file in your current folder, use git add ( the dot means "everyhting )
+
+
+Command 4: 'git commmit -m' "Your message here"
+What is does: Takes everyhting that is sitting in the staging Area, zips it up into a permanent snapshot,  stores it in the repository. the -m stands for "message".
